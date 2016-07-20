@@ -3,9 +3,9 @@ Template.newForm.events({
 		event.preventDefault();
 		let firstName = template.find('#firstName').value;
 		let lastName = template.find('#lastName').value;
-		let lastName = template.find('#quote').value;
-		let lastName = template.find('#gender').value;
-		let lastName = template.find('#githubLink').value;
+		let quote = template.find('#quote').value;
+		let gender = template.find('#gender').value;
+		let githubLink = template.find('#githubLink').value;
 
 		console.log(firstName);
 	}
